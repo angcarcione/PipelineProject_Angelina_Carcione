@@ -25,8 +25,14 @@ Required Flags:
 ```
 git config --global user.name '#YOUR NAME'
 git config --global user.email '#YOUR EMAIL'
-git clone
+git clone https://github.com/angcarcione/PipelineProject_Angelina_Carcione.git
 
+cd PipelineProject_Angelina_Carcione
+ls
+cat README.md
+git remote show origin
+```
+**YOU MUST CD INTO THE REPO ONCE CLONING**
 
 **python /home/2025/acarcione/Spring_2025/pipeline_proj/wrapper.py -NCBI acarcione@luc.edu -cwd /home/2025/acarcione/Spring_2025/pipeline_proj -R /home/2025/acarcione/Spring_2025/pipeline_proj/Sleuth.R**
 
