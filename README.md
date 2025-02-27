@@ -20,7 +20,13 @@ To run the python script with the tools, use this command line function with REQ
 Required Flags: 
 - cwd = path to your current working directory (this will be the directory with the repository, you must CD into said directory before running script)
 - NCBI_email = email used to access NCBI 
-- R_path = path to R script included in repository (Sleuth.R) 
+- R_path = path to R script included in repository (Sleuth.R)
+
+```
+git config --global user.name '#YOUR NAME'
+git config --global user.email '#YOUR EMAIL'
+git clone
+
 
 **python /home/2025/acarcione/Spring_2025/pipeline_proj/wrapper.py -NCBI acarcione@luc.edu -cwd /home/2025/acarcione/Spring_2025/pipeline_proj -R /home/2025/acarcione/Spring_2025/pipeline_proj/Sleuth.R**
 
