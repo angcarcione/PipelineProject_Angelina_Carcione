@@ -31,7 +31,7 @@ If you are interested in running the script with the real SRA files (not the sam
 
 '''to get the SRR ids, go to https://www.ebi.ac.uk/ena/browser/search or https://sra-explorer.info/ 
 and type in the experiment IDs (start with SRX) and download the script to the forward and reverse fastq files'''
-
+```
 import os
 wget_command = "wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR566/000/SRR5660030/SRR5660030_1.fastq.gz \
      -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR566/000/SRR5660030/SRR5660030_2.fastq.gz \
@@ -43,7 +43,7 @@ wget_command = "wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR566/000/SRR566003
      -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR566/005/SRR5660045/SRR5660045_2.fastq.gz "
 
 os.system(wget_command)
-
+```
 running the above script in python will download the gzipped files. 
 
 ######
