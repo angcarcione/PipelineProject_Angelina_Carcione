@@ -52,7 +52,9 @@ what mine looks like (DONT USE THIS): python /home/2025/acarcione/PipelineProjec
 
 *PLEASE NOTE*
 
-Once you run, you will not need to input anything EXCEPT for when it comes to BLAST and Downloading: ncbi_dataset.zip . It will ask you if it is okay to replace the READme.md. You can say whatever you deem fit, I say yes as it will not affect the results. 
+Once you run, you will not need to input anything after running the above command EXCEPT for when it comes to BLAST and Downloading: ncbi_dataset.zip.
+
+It will ask you if it is okay to replace the READme.md. You can say whatever you deem fit, I say yes (y) as it will not affect the results. 
 
 ######
 # How the real SRA files were fetched
