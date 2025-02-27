@@ -45,6 +45,8 @@ git remote show origin
 **python ~/PipelineProject_Angelina_Carcione/wrapper.py -NCBI YOUREMAIL@luc.edu -cwd ~/PipelineProject_Angelina_Carcione -R ~/PipelineProject_Angelina_Carcione/Sleuth.R**
 
 
+what mine looks like (DONT USE THIS): python /home/2025/acarcione/PipelineProject_Angelina_Carcione/wrapper.py -NCBI acarcione@luc.edu -cwd /home/2025/acarcione/PipelineProject_Angelina_Carcione -R /home/2025/acarcione/PipelineProject_Angelina_Carcione/Sleuth.R 
+
 ######
 # How the real SRA files were fetched
 
