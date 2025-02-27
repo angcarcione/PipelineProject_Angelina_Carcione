@@ -22,6 +22,7 @@ Required Flags:
 - NCBI_email = email used to access NCBI 
 - R_path = path to R script included in repository (Sleuth.R)
 
+**cloning the repo to run the script**
 ```
 git config --global user.name '#YOUR NAME'
 git config --global user.email '#YOUREMAIL@gmail.com'
