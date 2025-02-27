@@ -24,8 +24,15 @@ Required Flags:
 
 ```
 git config --global user.name '#YOUR NAME'
-git config --global user.email '#YOUR EMAIL'
+git config --global user.email '#YOUREMAIL@gmail.com'
 git clone https://github.com/angcarcione/PipelineProject_Angelina_Carcione.git
+
+# as a check 
+git config --global --list
+
+# should return 
+user.name= YOUR NAME
+user.email= YOUREMAIL@gmail.com
 
 cd PipelineProject_Angelina_Carcione
 ls
