@@ -10,7 +10,7 @@ The pipeline is as follows:
 - (SLEUTH) find differentially expressed genes between conditions (2dpi/6dpi)
 - (BOWTIE2) index genome  HCMV (NCBI accession NC_006273.2) and assemble reads
 - (SPAdes) using reads that assembled, assemble based on Donor (Donor1/Donor3)
-- (BLAST) using the assembly from each donor, BLAST longest contig to identify best alignments
+- (BLAST) using the assembly from each donor, BLAST longest contig and identify best alignments
 
 ######
 # **How to run the wrapper.py**
