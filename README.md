@@ -33,9 +33,10 @@ git config --global --list
 # should return 
 user.name= YOUR NAME
 user.email= YOUREMAIL@gmail.com
-
+```
+COPY THIS EXACTLY: 
+```
 git clone https://github.com/angcarcione/PipelineProject_Angelina_Carcione.git
-
 cd PipelineProject_Angelina_Carcione
 ls
 cat README.md
