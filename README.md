@@ -1,6 +1,7 @@
 # Pipeline_Project (Angelina Carcione)
 
 In this repository you will find the necessary files and dependencies for running the wrapper script for this pipeline. 
+There is also a PipelineProject.log file that shows the results of the script using the *original* data.
 
 The pipeline is as follows: 
 - download SRA files
