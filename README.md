@@ -41,7 +41,8 @@ git remote show origin
 ```
 **YOU MUST CD INTO THE REPO ONCE CLONING**
 
-**python /home/2025/acarcione/Spring_2025/pipeline_proj/wrapper.py -NCBI acarcione@luc.edu -cwd /home/2025/acarcione/Spring_2025/pipeline_proj -R /home/2025/acarcione/Spring_2025/pipeline_proj/Sleuth.R**
+## COMMAND TO RUN ONCE YOU HAVE CLONED REPO (~ will be your home directory)
+**python ~/PipelineProject_Angelina_Carcione/wrapper.py -NCBI YOUREMAIL@luc.edu -cwd ~/PipelineProject_Angelina_Carcione -R ~/PipelineProject_Angelina_Carcione/Sleuth.R**
 
 
 ######
